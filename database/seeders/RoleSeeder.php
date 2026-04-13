@@ -20,7 +20,7 @@ class RoleSeeder extends Seeder
 
         // 👤 USER
         User::create([
-            'name' => 'User',
+            'name' => 'peminjam',
             'email' => 'user@gmail.com',
             'password' => Hash::make('12345678'),
             'role' => 'user'
